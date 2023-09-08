@@ -14,7 +14,21 @@ body {
     padding-right: 1rem;
     padding-bottom: 3rem;
     border-radius: 1rem;
+    display: grid;
+    place-items: center;
 }
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
 
 @media (max-width: 500px) {
     .container {
