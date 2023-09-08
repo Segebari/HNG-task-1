@@ -14,6 +14,12 @@ body {
     border-radius: 1rem;
 }
 
+@media (max-width: 500px) {
+    .container {
+        width: 50vw;
+    }
+}
+
 h1 {
     color: #333;
     font-size: 3rem;
